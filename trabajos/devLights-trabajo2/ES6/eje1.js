@@ -1,0 +1,13 @@
+/* Compare los alcances de la var y deje las palabras clave */
+function checkScope() {
+
+    let i = 'function scope';
+      if (false) {
+       i = 'block scope';
+        console.log('Block scope i is: ', i);
+      }
+      console.log('Function scope i is: ', i);
+      return i;
+    }
+    
+checkScope()
