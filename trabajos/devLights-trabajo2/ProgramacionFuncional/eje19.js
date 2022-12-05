@@ -7,6 +7,6 @@ function splitify(str) {
     // Only change code above this line
   }
   
-  splitify("Hello World,I-am code");
+  console.log(splitify("Hello World,I-am code"));
 
   //CON AYUDA!!!
